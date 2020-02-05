@@ -17,6 +17,8 @@ yup:usado pra validaçao de dados como de email e senha
 
 pg e pg-hstore: plugin do banco de dados postgres
 
+date-fns@next .  (o @next e pra usar a versao mais atual)
+
 
 DEPENDECIAS DE DESENVOLVIMENTO:
 
