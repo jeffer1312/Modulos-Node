@@ -2,6 +2,7 @@
 dependecias que uso pra meus projetos e pra que servem
 
 Node:
+
 express: Microframework pra criar aplicaçoes.
 
 bcryptjs: usado pra criptofragar senha e outras coisas.
