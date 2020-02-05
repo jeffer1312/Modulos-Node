@@ -1,10 +1,12 @@
 # Modulos-Node
 dependecias que uso pra meus projetos e pra que servem
-Node:
 
-express: Microframework pra criar aplicaçoes
-bcryptjs: usado pra criptofragar senha e outras coisas
-jsonwebtoken: usado pra criar sessoes e token para essas sessoes
+Node:
+express: Microframework pra criar aplicaçoes.
+
+bcryptjs: usado pra criptofragar senha e outras coisas.
+
+jsonwebtoken: usado pra criar sessoes e token para essas sessoes.
 multer: usado pra upload de arquivos pro banco de dados
 sequelize: ORM pra banco de dados sql
 yup:usado pra validaçao de dados como de email e senha 
