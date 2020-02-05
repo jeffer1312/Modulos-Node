@@ -5,7 +5,7 @@ Node:
 
 express: Microframework pra criar aplicaçoes.
 
-bcryptjs: usado pra criptofragar senha e outras coisas.
+bcryptjs: usado pra criptografar senha e outras coisas.
 
 jsonwebtoken: usado pra criar sessoes e token para essas sessoes.
 
@@ -17,7 +17,8 @@ yup:usado pra validaçao de dados como de email e senha
 
 pg e pg-hstore: plugin do banco de dados postgres
 
-dependencias de desenvolvimento:
+
+DEPENDECIAS DE DESENVOLVIMENTO:
 
 eslint: usado pra padronização do codigo
 
