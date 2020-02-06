@@ -12,6 +12,7 @@ jsonwebtoken: usado pra criar sessoes e token para essas sessoes.
 multer: usado pra upload de arquivos pro banco de dados
 
 sequelize: ORM pra banco de dados sql
+mongoose: ORM para banco de dados No Sql
 
 yup:usado pra validaçao de dados como de email e senha 
 
