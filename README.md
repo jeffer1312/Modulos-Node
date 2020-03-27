@@ -98,6 +98,20 @@ exports.down = function(knex) {
    ```
    yarn knex migrate:rollback 
    ```
+   
+   .7 fazer conexao do knex com o banco
+   ```
+   const knex = require("knex");
+   const configuration = require("../../knexfile");
+   
+   const config =
+       process.env.NODE_ENV === "test" ? configuration.test : configuration.development;   //fazendo uma verificação de qual        o ambiente devera ser configurado, se e o de teste ou de desenvolvimento
+
+   const connection = knex(config);
+
+   module.exports = connection;
+   
+   ```
   - mongoose: ORM para banco de dados No Sql
   - sqlite3: banco sql lite
   - pg e pg-hstore: plugin do banco de dados postgres
